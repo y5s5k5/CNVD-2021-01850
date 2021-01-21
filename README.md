@@ -7,4 +7,4 @@ Attackers can use symbolic links to write content to any file with system permis
 If the target file is pci.sys, the computer will not start.   
 If you write an antivirus protection program, the antivirus protection will be ignored. 
 
-To exploit this vulnerability, you need to delete the Quarant directory, then create a symbolic link to the file name to be written, and then start the 360 antivirus quick scan, you only need to wait a moment, the target file will be written   
+To exploit this vulnerability, you need to delete the Quarant directory, then create an object manager symbolic link to make \RPC Control\360SD.Summary.union1 point to the file name to be opened, and then create a directory link Quarant link to \RPC Control, and then start 360 Antivirus quick scan or full scan. You only need to wait a moment to write the target file.
